@@ -16,7 +16,7 @@ int main()
 	cout << "void CsvFiles::overwrite()" << endl;
 	cout << endl;
 
-	Files file1("file.csv", ';');//Select string name and type of separator
+	Files file1("file.csv", ',');//Select string name and type of separator
 	file1.overwrite();//Create exemplary .csv file
 	file1.load();//Load data from .csv file
 	file1.matrix[0][0] = "1";//Edit one field from the array
